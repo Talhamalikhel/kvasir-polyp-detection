@@ -1,7 +1,7 @@
 import gradio as gr
 from ultralytics import YOLO
 
-model = YOLO('best.pt')
+model = YOLO('kvasir_best.pt')
 
 
 def detect_polyps(image):
